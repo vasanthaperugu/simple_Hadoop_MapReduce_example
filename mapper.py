@@ -21,3 +21,4 @@ for line in sys.stdin:
     for word in words:
         if word not in stopwords:
 	    print '%s\t%s' % (word, "1")
+# test
