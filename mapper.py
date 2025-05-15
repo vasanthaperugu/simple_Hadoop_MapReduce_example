@@ -4,7 +4,7 @@ import string
 
 #Define stopwords
 
-stopwords = set(['the', 'and', 'a', 'for', 'I', 'go', 'be', 'not', 'railings', 'or'])
+stopwords = set(['the', 'a', 'and','for', 'I', 'go', 'be', 'not', 'railings', 'or'])
 translator = string.maketrans('', '')
 
 # get all lines from stdin
